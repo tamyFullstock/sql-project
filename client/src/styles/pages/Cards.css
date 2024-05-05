@@ -1,0 +1,113 @@
+.cardsListSection{
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+
+.cardsListContainer{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    text-align: center;
+    min-height: 600px;
+    border:1px solid 
+  
+}
+
+p{
+    margin-right:5px;
+    margin-left: 5px;
+}
+.singleCard {
+    margin: 20px 20px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.imgCard{
+    width:100%;
+    height:50%;
+}
+
+.cardBtns{
+    margin-top: 5px;
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttonCard{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 100px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(103, 146, 183);
+    height: 38px;
+}
+
+.buttonCard:hover{
+    background-color: #1db954;
+}
+
+.updateCreateCard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 50px;
+    margin-top: 110px;
+    position: absolute;
+    z-index: 100;
+  }
+
+.singleCardLink{
+    text-decoration: none;
+    color: black;
+}
+
+.commentCardContainer{
+    height: 700px;
+    width: 400px;
+}
+
+.albumCardImg{
+    height:70%;
+}
+
+.photoCardImg{
+    height:55%;
+}
+
+.imgCardLink{
+    height:55%;
+    width:100%;
+}
+
+.imgCardPost{
+    height: 100%;
+    width: 100%;
+}
+
+.albumTitle{
+    color: rgb(60, 100, 136);
+    font-family: 'Nunito', sans-serif;
+}

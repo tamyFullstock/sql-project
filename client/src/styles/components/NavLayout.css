@@ -1,0 +1,33 @@
+.headerNav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    background-color: rgb(228, 235, 243);
+    margin-bottom: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #3d4a59;
+    font-weight: 600;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+}
+
+header a:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+main{
+    min-height: 600px;
+}

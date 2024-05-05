@@ -1,0 +1,43 @@
+.searchBtnContainer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    background-color: rgb(234, 238, 243);
+    margin-top: 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1{
+    color:black;
+}
+
+.searchBoxesContainer{
+    display: flex;
+    gap: 24px;
+}
+
+.boxContainer h1{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15;
+}
+
+.boxContainer{
+    gap:10px;
+    display:flex;
+    align-items: center;
+}
+
+.cardFilterInput{
+    height: 40px;
+}
+
+.finalSerchBtn{
+    display: flex;
+    gap: 10px;
+}
